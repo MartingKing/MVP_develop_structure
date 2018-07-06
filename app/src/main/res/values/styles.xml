@@ -1,0 +1,58 @@
+<resources>
+    <!--全局设置-->
+    <style name="AppThemeStyle" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <!--键盘弹出设置滚动 -->
+        <item name="android:windowSoftInputMode">adjustResize|adjustUnspecified|stateAlwaysHidden
+        </item>
+        <item name="android:configChanges">keyboardHidden|orientation|screenSize</item>
+        <!--界面切换黑屏问题-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:listDivider">@drawable/bg_divider</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppThemeStyle">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="common_divider_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dip1</item>
+        <item name="android:background">@color/colorddd</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21dp</item>
+        <item name="android:textColor">@color/color999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--通用提示框样式-->
+    <style name="CommonToast">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Transparent" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Transparent_FullScreen" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppTheme.FUllScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!--********************************************  字体大小 small  ************************************************-->
+
+</resources>

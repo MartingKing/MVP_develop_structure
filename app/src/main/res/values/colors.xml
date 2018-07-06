@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6046</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color666">#FF666666</color>
+    <color name="color333">#FF333333</color>
+    <color name="color999">#FF999999</color>color999
+    <color name="colore0">#FFE0E0E0</color>
+    <color name="transparent">#00000000</color>
+    <color name="title_bg">#1D1B20</color>
+    <color name="window_bg">#F9F9F9</color>
+    <color name="colorddd">#DDDDDD</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="red_heavy">#FF3015</color>
+    <color name="red">#FF6046</color>
+    <color name="gray_red">#FFFF7059</color>
+    <color name="green">#09BB07</color>
+    <color name="yellow">#FFA056</color>
+
+    <!-- TextView 控件字体颜色 -->
+    <color name="tv_white">#FFF</color>
+    <color name="tv_gray">#999</color>
+    <color name="tv_hint">#999</color>
+    <color name="tv_normal">#666</color>
+    <color name="tv_grav_heavy">#4D4D4D</color>
+    <color name="tv_heavy">#333</color>
+    <color name="tv_hint_red">#FFC9C9</color>
+    <color name="tv_red">#FF6046</color>
+    <color name="tv_blue">#68BCF3</color>
+    <color name="tv_black">#000000</color>
+
+    <!-- Button 控件颜色 -->
+    <color name="bt_white">#FFFFFF</color>
+    <color name="bt_gray">#D6D6D6</color>
+    <color name="bt_yellow">#FFC662</color>
+    <color name="bt_red">@color/colorPrimary</color>
+    <color name="colordc">#DCDCDC</color>
+    <color name="invest_icon_blue">#61A9F4</color>
+    <color name="invest_icon_red">#FA6650</color>
+    <color name="funding_d8">#D8D8D8</color>
+    <color name="account_icon_blue">#68BCF3</color>
+    <color name="account_icon_inviting_friend">#FD8076</color>
+    <color name="account_icon_treasure_box">#618EFF</color>
+    <color name="low_gray">#BFBFBF</color>
+    <color name="low_white">#FFEEEE</color>
+
+</resources>

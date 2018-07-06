@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">城步苗乡</string>
+
+    <string name="lib_cancel">取消</string>
+    <string name="lib_finish">完成</string>
+
+    <string name="lib_sure">确定</string>
+    <string name="lib_refresh_loadmore_nomore">-- 没有更多数据 --</string>
+    <string name="lib_refresh_loadmore_error">出错了，请点击重新加载更多</string>
+    <string name="lib_refresh_loadmore_loading">努力加载中...</string>
+    <string name="refresh_pulldown_refresh">下拉刷新</string>
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+
+    <string name="register_guide">非常感谢您关注本项目\n本项目意在仿出一个微信朋友圈，后台采用Bmob服务器，代码开源并托管在github\n(https://github.com/razerdp/FriendCircle)\n为了更方便您的测试，您可以在本Popup进行注册以改变本地测试用户，如果不注册，则默认以开发者帐号来进行测试。\n测试可以随便填写，目前也没有打算登录，仅仅是用来更改本地测试用户信息而已，请放心使用。</string>
+</resources>

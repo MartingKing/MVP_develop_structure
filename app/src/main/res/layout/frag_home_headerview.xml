@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhouwei.mzbanner.MZBannerView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip230"
+        android:layout_marginTop="10dp"
+        app:canLoop="true"
+        app:indicatorAlign="center"
+        app:indicatorPaddingLeft="10dp"
+        app:open_mz_mode="true" />
+
+    <View
+        style="@style/common_divider_style"
+        android:layout_marginTop="@dimen/dip10" />
+
+    <include layout="@layout/fragment_home_recomend_layout" />
+
+    <View style="@style/common_divider_style" />
+
+    <TextView
+        android:layout_width="@dimen/dip140"
+        android:layout_height="@dimen/dip44"
+        android:background="@drawable/shape_bg_red_right_fillet"
+        android:gravity="center"
+        android:text="城步热点"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sip24" />
+</LinearLayout>

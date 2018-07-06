@@ -1,0 +1,34 @@
+<!--加载失败-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_error_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dip60"
+        android:layout_marginTop="@dimen/dip290"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/dip20"
+        android:text="网络连接异常\n请检查你的手机是否联网"
+        android:textColor="@color/color999"
+        android:textSize="@dimen/sip28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip20"
+        android:text="点击屏幕刷新"
+        android:textColor="@color/tv_red"
+        android:textSize="@dimen/sip28" />
+</LinearLayout>

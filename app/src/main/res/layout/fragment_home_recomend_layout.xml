@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip204"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/dip96"
+                android:layout_height="@dimen/dip96"
+                android:layout_marginTop="@dimen/dip32"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ic_my_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip15"
+                android:text="电商"
+                android:textColor="@color/tv_grav_heavy"
+                android:textSize="@dimen/sip24" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/dip96"
+                android:layout_height="@dimen/dip96"
+                android:layout_marginTop="@dimen/dip32"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ic_my_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip15"
+                android:text="教育"
+                android:textColor="@color/tv_grav_heavy"
+                android:textSize="@dimen/sip24" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/dip96"
+                android:layout_height="@dimen/dip96"
+                android:layout_marginTop="@dimen/dip32"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ic_my_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip15"
+                android:text="政策"
+                android:textColor="@color/tv_grav_heavy"
+                android:textSize="@dimen/sip24" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/dip96"
+                android:layout_height="@dimen/dip96"
+                android:layout_marginTop="@dimen/dip32"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ic_my_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip15"
+                android:text="苗乡手艺"
+                android:textColor="@color/tv_grav_heavy"
+                android:textSize="@dimen/sip24" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

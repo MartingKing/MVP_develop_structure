@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dip88"
+    android:background="@color/colorPrimary"
+    app:contentInsetStart="@dimen/dip0"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:titleTextAppearance="@style/Toolbar.TitleText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dip20"
+            android:paddingRight="@dimen/dip10"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sip32" />
+
+        <TextView
+            android:id="@+id/toolbar_menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingRight="@dimen/dip30"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sip32" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip1"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorddd" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
